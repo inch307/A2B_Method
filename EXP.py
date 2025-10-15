@@ -43,10 +43,10 @@ parser.add_argument('--obj', default='avg', help='Obj (avg or worst) for N-outpu
 parser.add_argument('--log_dir', default='logs')
 
 parser.add_argument('--alpha', type=float, default=0.05)
-parser.add_argument('--lr', type=float, default=0.5) 
+parser.add_argument('--lr', type=float, default=0.3) 
 parser.add_argument('--eps_ratio', type=float, default=0.7)
 parser.add_argument('--steps', type=int, default=30)
-parser.add_argument('--zeta', type=float, default=0.1)
+parser.add_argument('--zeta', type=float, default=0.3)
 parser.add_argument('--tau', type=float, default=2)
 
 args = parser.parse_args()
