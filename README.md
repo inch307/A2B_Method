@@ -1,7 +1,7 @@
-# Lyapunov Bounding Method
+# Adaptive Second-order Bounding Method
 
 This repository contains the Python implementation for the paper Numerical Data Collection under Local Differential Privacy without Prior Knowledge.
-The **Lyapunov Bounding (LB) method** is an online protocol for collecting numerical data under Local Differential Privacy (LDP) without prior knowledge of the data's true range. It adaptively tunes the data collection bounds $[l, r]$ to minimize the total estimation error by balancing the bias-variance trade-off.
+The **Adaptive Second-order Bounding (A2B) method** is an online protocol for collecting numerical data under Local Differential Privacy (LDP) without prior knowledge of the data's true range. It adaptively tunes the data collection bounds $[l, r]$ to minimize the total estimation error by balancing the bias-variance trade-off.
 
 
 ## Reproducing Experiments
